@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "General Sans";
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+}
+.hero_sec {
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.nav > .logo {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.navbarList {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 20vw;
+}
+.hero_body {
+  height: 90vh;
+  display: flex;
+  gap: 3rem;
+  margin-left: 40px;
+}
+.movie_cards {
+  width: 200px;
+  height: 300px;
+  background: rgb(239, 35, 35);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
